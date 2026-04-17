@@ -1,6 +1,6 @@
 import type { ReactNode } from "react";
-import { EgniteWordmark } from "./egnite-marks";
-import { FacebookIcon, GlobeIcon, InstagramIcon, TikTokIcon, XIcon } from "./icons";
+import { EgniteWordmark } from "@/lib/brand/marks";
+import { FacebookIcon, GlobeIcon, InstagramIcon, TikTokIcon, XIcon } from "@/lib/icons";
 
 export type IngredientRow = {
   label: string;
