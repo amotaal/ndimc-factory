@@ -1,5 +1,7 @@
 import type { SVGProps } from "react";
 
+export * from "./illustrations";
+
 type IconProps = SVGProps<SVGSVGElement>;
 
 const base = (props: IconProps) => ({

@@ -1,5 +1,5 @@
 import type { ReactNode } from "react";
-import { EgniteWordmark, StayEgnitedSeal } from "./egnite-marks";
+import { EgniteWordmark, StayEgnitedSeal } from "@/lib/brand/marks";
 
 export type RecipeCardData = {
   title: string;
