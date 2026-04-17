@@ -3,24 +3,45 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  /* Egnite-inspired brand tokens, shared across templates */
+  --egnite-cream: #f6ecd9;
+  --egnite-cream-soft: #faf3e3;
+  --egnite-paper: #fdf8ec;
+  --egnite-gold: #b18a3c;
+  --egnite-gold-soft: #d8b56a;
+  --egnite-ink: #2a2a2a;
+  --egnite-ink-deep: #1d1d1d;
+  --egnite-rust: #c24b2c;
+  --egnite-forest: #2a3a32;
+  --egnite-forest-deep: #1f2a24;
+  --egnite-orange: #e57f3a;
+  --egnite-peach: #f4d6b7;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-cream: var(--egnite-cream);
+  --color-cream-soft: var(--egnite-cream-soft);
+  --color-paper: var(--egnite-paper);
+  --color-gold: var(--egnite-gold);
+  --color-gold-soft: var(--egnite-gold-soft);
+  --color-ink: var(--egnite-ink);
+  --color-ink-deep: var(--egnite-ink-deep);
+  --color-rust: var(--egnite-rust);
+  --color-forest: var(--egnite-forest);
+  --color-forest-deep: var(--egnite-forest-deep);
+  --color-egnite-orange: var(--egnite-orange);
+  --color-peach: var(--egnite-peach);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --font-display: var(--font-display);
+  --font-script: var(--font-script);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
 }
